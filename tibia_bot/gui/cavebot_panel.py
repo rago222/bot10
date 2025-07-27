@@ -159,9 +159,8 @@ class CavebotPanel:
         record_frame = ttk.Frame(tools_frame)
         record_frame.grid(row=0, column=0, sticky=tk.W)
         
-        self.record_button = ttk.Button(record_frame, text="Iniciar Gravação", 
-                                       command=self.toggle_recording)
-        self.record_button.grid(row=0, column=0, padx=(0, 10))
+        ttk.Button(wp_buttons_frame, text="Iniciar Gravação", 
+                  command=self.toggle_recording).grid(row=0, column=0, padx=(0, 10))
         
         ttk.Label(record_frame, text="Status:").grid(row=0, column=1, sticky=tk.W)
         self.record_status_label = ttk.Label(record_frame, text="Parado")
