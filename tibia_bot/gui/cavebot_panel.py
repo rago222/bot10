@@ -270,7 +270,7 @@ class CavebotPanel:
                 # Criar estrutura do script
                 script_data = {
                     'name': Path(filename).stem,
-                    'created': tk.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                    'created': time.strftime('%Y-%m-%d %H:%M:%S'),
                     'waypoints': []
                 }
                 
