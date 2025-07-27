@@ -6,7 +6,7 @@ Salva e carrega configurações em arquivo JSON
 import json
 import os
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, List
 import logging
 
 class ConfigManager:
