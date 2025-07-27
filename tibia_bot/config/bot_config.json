@@ -1,0 +1,82 @@
+{
+  "bot": {
+    "cycle_delay": 0.1,
+    "emergency_stop_key": "F12",
+    "debug_mode": false
+  },
+  "screen_capture": {
+    "obs_window_title": "OBS Studio - Preview",
+    "capture_region": null,
+    "min_capture_interval": 0.05
+  },
+  "input_simulator": {
+    "mouse_speed_base": 0.5,
+    "mouse_speed_variance": 0.3,
+    "click_delay_base": 0.05,
+    "click_delay_variance": 0.03,
+    "humanize_by_default": true
+  },
+  "auto_heal": {
+    "health_threshold": 70,
+    "emergency_threshold": 30,
+    "use_potions": true,
+    "use_spells": false,
+    "potion_hotkey": "F1",
+    "spell_hotkey": "F5",
+    "emergency_hotkey": "F2"
+  },
+  "auto_mana": {
+    "mana_threshold": 60,
+    "emergency_threshold": 20,
+    "use_potions": true,
+    "use_spells": false,
+    "potion_hotkey": "F3",
+    "spell_hotkey": "F6",
+    "emergency_hotkey": "F4"
+  },
+  "auto_food": {
+    "food_hotkey": "F7",
+    "check_interval": 5.0,
+    "use_right_click": true,
+    "food_inventory_slot": 1
+  },
+  "auto_loot": {
+    "loot_radius": 150,
+    "loot_delay": 0.2,
+    "use_optimized_loot": true,
+    "auto_open_corpses": true,
+    "pickup_all_items": false
+  },
+  "cavebot": {
+    "attack_enabled": true,
+    "walk_speed": 1.0,
+    "attack_range": 5,
+    "stuck_threshold": 5.0,
+    "waypoint_precision": 10,
+    "monster_priority": [
+      "dragon",
+      "demon",
+      "hero"
+    ],
+    "avoid_monsters": [
+      "ancient scarab"
+    ]
+  },
+  "hotkeys": {
+    "start_stop_bot": "F9",
+    "emergency_stop": "F12",
+    "toggle_auto_heal": "Ctrl+F1",
+    "toggle_auto_mana": "Ctrl+F2",
+    "toggle_auto_food": "Ctrl+F3",
+    "toggle_auto_loot": "Ctrl+F4",
+    "toggle_cavebot": "Ctrl+F5"
+  },
+  "rois": {
+    "health_bar": null,
+    "mana_bar": null,
+    "food_status": null,
+    "game_area": null,
+    "loot_area": null,
+    "chat_area": null
+  }
+}
