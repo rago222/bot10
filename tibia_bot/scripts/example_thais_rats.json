@@ -1,0 +1,87 @@
+{
+  "name": "Thais Rats",
+  "created": "2025-01-01 12:00:00",
+  "description": "Script de exemplo para caça de ratos em Thais",
+  "waypoints": [
+    {
+      "x": 32369,
+      "y": 32241,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32369,
+      "y": 32245,
+      "type": "walk", 
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32373,
+      "y": 32245,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32373,
+      "y": 32241,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32375,
+      "y": 32241,
+      "type": "stairs",
+      "action": "down",
+      "delay": 1.0,
+      "condition": ""
+    },
+    {
+      "x": 32375,
+      "y": 32242,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32371,
+      "y": 32242,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32371,
+      "y": 32238,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32375,
+      "y": 32238,
+      "type": "walk",
+      "action": "",
+      "delay": 0.0,
+      "condition": ""
+    },
+    {
+      "x": 32375,
+      "y": 32241,
+      "type": "stairs",
+      "action": "up",
+      "delay": 1.0,
+      "condition": ""
+    }
+  ]
+}
