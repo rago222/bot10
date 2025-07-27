@@ -1,0 +1,13 @@
+opencv-python==4.10.0.84
+pyautogui==0.9.54
+pillow==10.4.0
+numpy==1.26.4
+mss==9.0.1
+keyboard==0.13.5
+mouse==0.7.1
+pynput==1.7.7
+tkinter-tooltip==2.1.0
+threading-timeout==3.2.0
+configparser==7.1.0
+psutil==6.0.0
+pywin32==306; sys_platform == "win32"
