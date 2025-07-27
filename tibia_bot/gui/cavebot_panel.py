@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import json
 import os
+import time
 from pathlib import Path
 
 class CavebotPanel:
